@@ -26,7 +26,7 @@ public class ExcelServices {
 	    }
 	  }
 
-	  public List<Student> getAllTutorials() {
+	  public List<Student> getAllStudents() {
 	    return repository.findAll();
 	  }
 	  
